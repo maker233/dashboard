@@ -14,6 +14,7 @@ import { PagesModule } from './pages/pages.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
+// import { GraficoDonaComponent } from './components/graficodona/graficodona.component';
 
 
 // import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -30,6 +31,7 @@ import { RegisterComponent } from './login/register.component';
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    // GraficoDonaComponent,
     // PagesComponent,
     // DashboardComponent,
     // ProgressComponent,
