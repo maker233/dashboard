@@ -1,4 +1,8 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+// Temporal
+import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
@@ -18,11 +22,13 @@ import { Graficas1Component } from './graficas1/graficas1.component';
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component
+        Graficas1Component,
+        IncrementadorComponent
     ],
     imports: [
         SharedModule,
-        PAGES_ROUTES
+        PAGES_ROUTES,
+        FormsModule
     ],
     exports: [
         DashboardComponent,

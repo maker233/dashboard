@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+// Temporal
+import { FormsModule } from '@angular/forms';
+
 // Rutas
 import { APP_ROUTES } from './app.routes';
 
@@ -12,6 +15,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
+
 // import { DashboardComponent } from './pages/dashboard/dashboard.component';
 // import { ProgressComponent } from './pages/progress/progress.component';
 // import { Graficas1Component } from './pages/graficas1/graficas1.component';
@@ -20,7 +24,6 @@ import { RegisterComponent } from './login/register.component';
 // import { BreadcrumsComponent } from './shared/breadcrums/breadcrums.component';
 // import { NopagefoundComponent } from './shared/nopagefound/nopagefound.component';
 // import { PagesComponent } from './pages/pages.component';
-
 
 @NgModule({
   declarations: [
@@ -40,7 +43,8 @@ import { RegisterComponent } from './login/register.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
